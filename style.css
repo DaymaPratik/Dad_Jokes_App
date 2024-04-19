@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Playfair+Display&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(50deg,#EA8D8D , #A890FE);
+    font-family: "Patrick Hand", cursive;
+}
+#container{
+    width: 70%;
+    text-align: center;
+    border: 2px solid rgb(98, 184, 216);
+    border-radius: 20px;
+    box-shadow:0px 0px 60px 5px rgb(255, 251, 251);
+    padding: 20px 0px;
+    background: linear-gradient(90deg,#a56ddd , #6e84e8);
+}
+#joke_heading{
+    font-size: 45px;
+    text-shadow: 2px 0px white;
+}
+#joke{
+    font-size: 30px;
+}
+#btn{
+    background: linear-gradient(50deg,#EA8D8D , #A890FE);
+    font-family: "Patrick Hand", cursive;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    #container{
+        width: 90%;
+    }
+
+  }
+
+  @media screen and (max-width:400px){
+    #joke_heading{
+        font-size: 30px;
+    }
+    #joke{
+        font-size: 20px;
+    }
+    #btn{
+        font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width:220px){
+    #joke_heading{
+        font-size: 25px;
+    }
+    #joke{
+        font-size: 15px;
+    }
+    #btn{
+        font-size: 15px;
+        font-weight: 400;
+    }
+  }
